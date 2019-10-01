@@ -34,6 +34,9 @@
 		350BC10F23430187004F63DC /* snow3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = snow3.png; path = ../../../../../snow3.png; sourceTree = "<group>"; };
 		350BC11023430187004F63DC /* snow1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = snow1.png; path = ../../../../../snow1.png; sourceTree = "<group>"; };
 		350BC114234305F9004F63DC /* UIimageResize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIimageResize.swift; sourceTree = "<group>"; };
+		350BC11723432E7B004F63DC /* snow2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow2.png; sourceTree = "<group>"; };
+		350BC11823432E7C004F63DC /* snow3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow3.png; sourceTree = "<group>"; };
+		350BC11923432E7C004F63DC /* snow1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +74,7 @@
 				350BC0FB2342E3D3004F63DC /* ViewController.swift */,
 				350BC114234305F9004F63DC /* UIimageResize.swift */,
 				350BC0F92342E3D3004F63DC /* SceneDelegate.swift */,
+				350BC11623432E7B004F63DC /* Image */,
 				350BC11023430187004F63DC /* snow1.png */,
 				350BC10E23430187004F63DC /* snow2.png */,
 				350BC10F23430187004F63DC /* snow3.png */,
@@ -88,6 +92,16 @@
 				350BC1022342E3D4004F63DC /* LaunchScreen.storyboard */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		350BC11623432E7B004F63DC /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				350BC11923432E7C004F63DC /* snow1.png */,
+				350BC11723432E7B004F63DC /* snow2.png */,
+				350BC11823432E7C004F63DC /* snow3.png */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
