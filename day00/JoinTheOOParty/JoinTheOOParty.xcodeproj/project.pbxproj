@@ -13,6 +13,11 @@
 		350BC0FF2342E3D3004F63DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 350BC0FD2342E3D3004F63DC /* Main.storyboard */; };
 		350BC1012342E3D4004F63DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 350BC1002342E3D4004F63DC /* Assets.xcassets */; };
 		350BC1042342E3D4004F63DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 350BC1022342E3D4004F63DC /* LaunchScreen.storyboard */; };
+		350BC10D2342EEE6004F63DC /* SnowAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350BC10C2342EEE6004F63DC /* SnowAnimation.swift */; };
+		350BC11123430187004F63DC /* snow2.png in Resources */ = {isa = PBXBuildFile; fileRef = 350BC10E23430187004F63DC /* snow2.png */; };
+		350BC11223430187004F63DC /* snow3.png in Resources */ = {isa = PBXBuildFile; fileRef = 350BC10F23430187004F63DC /* snow3.png */; };
+		350BC11323430187004F63DC /* snow1.png in Resources */ = {isa = PBXBuildFile; fileRef = 350BC11023430187004F63DC /* snow1.png */; };
+		350BC115234305F9004F63DC /* UIimageResize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350BC114234305F9004F63DC /* UIimageResize.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		350BC1002342E3D4004F63DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		350BC1032342E3D4004F63DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		350BC1052342E3D4004F63DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		350BC10C2342EEE6004F63DC /* SnowAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowAnimation.swift; sourceTree = "<group>"; };
+		350BC10E23430187004F63DC /* snow2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = snow2.png; path = ../../../../../snow2.png; sourceTree = "<group>"; };
+		350BC10F23430187004F63DC /* snow3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = snow3.png; path = ../../../../../snow3.png; sourceTree = "<group>"; };
+		350BC11023430187004F63DC /* snow1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = snow1.png; path = ../../../../../snow1.png; sourceTree = "<group>"; };
+		350BC114234305F9004F63DC /* UIimageResize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIimageResize.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,28 @@
 		350BC0F62342E3D3004F63DC /* JoinTheOOParty */ = {
 			isa = PBXGroup;
 			children = (
-				350BC0F72342E3D3004F63DC /* AppDelegate.swift */,
-				350BC0F92342E3D3004F63DC /* SceneDelegate.swift */,
-				350BC0FB2342E3D3004F63DC /* ViewController.swift */,
 				350BC0FD2342E3D3004F63DC /* Main.storyboard */,
-				350BC1002342E3D4004F63DC /* Assets.xcassets */,
-				350BC1022342E3D4004F63DC /* LaunchScreen.storyboard */,
+				350BC10C2342EEE6004F63DC /* SnowAnimation.swift */,
+				350BC0FB2342E3D3004F63DC /* ViewController.swift */,
+				350BC114234305F9004F63DC /* UIimageResize.swift */,
+				350BC0F92342E3D3004F63DC /* SceneDelegate.swift */,
+				350BC11023430187004F63DC /* snow1.png */,
+				350BC10E23430187004F63DC /* snow2.png */,
+				350BC10F23430187004F63DC /* snow3.png */,
+				350BC10B2342E3EA004F63DC /* Supporting Files */,
 				350BC1052342E3D4004F63DC /* Info.plist */,
 			);
 			path = JoinTheOOParty;
+			sourceTree = "<group>";
+		};
+		350BC10B2342E3EA004F63DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				350BC0F72342E3D3004F63DC /* AppDelegate.swift */,
+				350BC1002342E3D4004F63DC /* Assets.xcassets */,
+				350BC1022342E3D4004F63DC /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +149,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				350BC1042342E3D4004F63DC /* LaunchScreen.storyboard in Resources */,
+				350BC11123430187004F63DC /* snow2.png in Resources */,
+				350BC11223430187004F63DC /* snow3.png in Resources */,
 				350BC1012342E3D4004F63DC /* Assets.xcassets in Resources */,
+				350BC11323430187004F63DC /* snow1.png in Resources */,
 				350BC0FF2342E3D3004F63DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +164,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				350BC115234305F9004F63DC /* UIimageResize.swift in Sources */,
 				350BC0FC2342E3D3004F63DC /* ViewController.swift in Sources */,
+				350BC10D2342EEE6004F63DC /* SnowAnimation.swift in Sources */,
 				350BC0F82342E3D3004F63DC /* AppDelegate.swift in Sources */,
 				350BC0FA2342E3D3004F63DC /* SceneDelegate.swift in Sources */,
 			);
