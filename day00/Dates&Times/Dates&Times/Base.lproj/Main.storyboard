@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -15,8 +15,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="193" translatesAutoresizingMaskIntoConstraints="NO" id="26g-yz-VWR">
-                                <rect key="frame" x="47" y="89.5" width="320" height="717"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="26g-yz-VWR">
+                                <rect key="frame" x="47" y="171" width="320" height="554"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="Wv8-EX-PLC">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="476"/>
@@ -31,7 +31,7 @@
                                         <variation key="heightClass=compact" axis="horizontal"/>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MAZ-M3-NKf">
-                                        <rect key="frame" x="0.0" y="669" width="320" height="48"/>
+                                        <rect key="frame" x="126" y="506" width="68" height="48"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="Okay">
                                             <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -45,8 +45,8 @@
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="26g-yz-VWR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eTI-qN-dB8"/>
-                            <constraint firstItem="26g-yz-VWR" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="h1c-dE-npG"/>
+                            <constraint firstItem="26g-yz-VWR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hhi-R1-JBl"/>
+                            <constraint firstItem="26g-yz-VWR" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="q16-4D-J8C"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
