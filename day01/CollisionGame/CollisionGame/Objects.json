@@ -1,0 +1,23 @@
+[
+	{
+		"name": "snow1",
+		"score": 1,
+		"speed": 1200,
+	},
+	{
+		"name": "snow2",
+		"score": 3,
+		"speed": 1400,
+	},
+	{
+		"name": "snow3",
+		"score": 5,
+		"speed": 1000,
+	},
+	{
+		"name": "fire",
+		"score": 0,
+		"speed": 500,
+	}
+
+]
