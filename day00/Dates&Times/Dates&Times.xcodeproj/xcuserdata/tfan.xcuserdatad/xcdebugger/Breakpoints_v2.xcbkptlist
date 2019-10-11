@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5B4A445C-424C-41FD-AB30-FC0D5730AF8D"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F4A7565E-3C84-45B0-B173-809BAB024A84"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dates&amp;Times/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "F4A7565E-3C84-45B0-B173-809BAB024A84 - e0b5f9fe48be28a4"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dates_Times.ViewController.pickerData.getter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "Dates&amp;Times"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tfan/Desktop/swift/swiftPiscine/day00/Dates&amp;Times/Dates&amp;Times/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "122">
+               </Location>
+               <Location
+                  uuid = "F4A7565E-3C84-45B0-B173-809BAB024A84 - 13457a95d768b0b0"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dates_Times.ViewController.pickerData.setter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "Dates&amp;Times"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tfan/Desktop/swift/swiftPiscine/day00/Dates&amp;Times/Dates&amp;Times/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "F4A7565E-3C84-45B0-B173-809BAB024A84 - 3bead43875d686a1"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dates_Times.ViewController.pickerData.modify : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "Dates&amp;Times"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tfan/Desktop/swift/swiftPiscine/day00/Dates&amp;Times/Dates&amp;Times/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "F4A7565E-3C84-45B0-B173-809BAB024A84 - 8a3f93ec6b0e695e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dates_Times.ViewController.pickerData.modify : Swift.Array&lt;Swift.String&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Dates&amp;Times"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tfan/Desktop/swift/swiftPiscine/day00/Dates&amp;Times/Dates&amp;Times/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "F4A7565E-3C84-45B0-B173-809BAB024A84 - e8a88afce932d19a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dates_Times.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Dates_Times.ViewController"
+                  moduleName = "Dates&amp;Times"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tfan/Desktop/swift/swiftPiscine/day00/Dates&amp;Times/Dates&amp;Times/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "261">
+               </Location>
+               <Location
+                  uuid = "F4A7565E-3C84-45B0-B173-809BAB024A84 - bf28876ae1602bbb"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dates_Times.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Dates_Times.ViewController&gt;"
+                  moduleName = "Dates&amp;Times"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tfan/Desktop/swift/swiftPiscine/day00/Dates&amp;Times/Dates&amp;Times/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "198">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

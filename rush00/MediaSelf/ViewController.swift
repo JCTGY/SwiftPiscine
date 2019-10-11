@@ -15,9 +15,17 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        playerView.loadWithVideoId("TPjAsus_bZo")
+        moviestore.fetchMovie(){
+            object in
+            Movie.movieStats = object!
+            print(Movie.movieStats.page)
+            
+        }
+        //moviestore.fetchVideos(movieID: 475557)
+        //playerView.loadWithVideoId("TPjAsus_bZo")
         // Do any additional setup after loading the view.
     }
+    var moviestore = MovieDataAPI()
     
     @IBOutlet weak var playerView: YoutubePlayerView!
     
